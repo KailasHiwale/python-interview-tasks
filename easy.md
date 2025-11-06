@@ -1,15 +1,16 @@
 # Easy Interview Tasks
 
 
-### Task 1 
 <details>
-<summary> Write a program to calculate factorial of a number recieved via console. Apply validation for invalid input and display appropreate message.  
+<summary><strong>Task 1</strong>  
+    
+Write a program to calculate factorial of a number recieved via console. Apply validation for invalid input and display appropreate message.  
     
 Example 1 - Console input: 5, Output: 120  
 
 Example 2 - Console input: "test", Output: Invalid number </summary>  
 
-Sol.  
+<strong>Solution</strong>
 
 ```python
 def fact(n):
