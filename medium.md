@@ -1,11 +1,36 @@
 # Medium Interview Tasks
 
-### Task 1. Write a program to flatten a nested list without using recusion.
-Example -
-Input: [1,[2,[3,4],5]]
-Output: [1, 2, 3, 4, 5]
+<details>  
+    
+<summary><strong>Task Template</strong>  
+    
+Add task statement here  
 
-Solution:
+Example 1: add here
+
+Example 2: add here </summary>  
+
+
+<strong>Solution</strong>  
+
+
+```python
+# Python code here
+```
+</details>
+
+<details>  
+    
+<summary><strong>Task 1</strong>  
+    
+Write a program to flatten a nested list without using recusion.  
+
+Example 2: input = [1, [2, [3, 4], 5]], Output = [1, 2, 3, 4, 5] </summary>  
+
+
+<strong>Solution</strong>  
+
+
 ```python
 result = []
 stack = l[:]
@@ -19,3 +44,4 @@ while stack:
         
 print(result)
 ```
+</details>
