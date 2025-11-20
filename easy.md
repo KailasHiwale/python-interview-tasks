@@ -96,3 +96,45 @@ single_freq = [k for k in freq if freq[k] == 1]
 print(single_freq)
 ```
 </details>
+
+<details>  
+    
+<summary><strong>Task 4</strong>  
+    
+Guess the output of the following code:  
+```python
+def func(l=[]):
+    l.append(10)
+    print(l)
+
+
+l = [20]
+func(l)
+l.append(30)
+func()
+
+
+def func_2(l=None):
+    l = []
+    l.append(10)   
+    print(l)
+    
+
+l = [20]
+func_2(l)
+l.append(30)
+func_2(l)
+```
+</summary>  
+
+
+<strong>Solution</strong>  
+
+
+```bash
+[20, 10]
+[10]
+[10]
+[10]
+```
+</details>
