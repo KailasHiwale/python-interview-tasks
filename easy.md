@@ -70,3 +70,29 @@ output = ''.join([char for char in input if char.lower() not in "aeiou"])
 print(output)
 ```
 </details>
+
+<details>  
+    
+<summary><strong>Task 3</strong>  
+    
+From a given list, fetch single frequency elements.    
+
+Example 1: input: [1, 2, 2, 3, 3, 4, 4]    output: [1]</summary>  
+
+
+<strong>Solution</strong>  
+
+
+```python
+l = [1, 2, 2, 3, 3, 4, 4]
+
+freq = {}
+
+for i in l:
+    freq[i] = freq[i] + 1 if i in freq else 1
+
+single_freq = [k for k in freq if freq[k] == 1]
+
+print(single_freq)
+```
+</details>
